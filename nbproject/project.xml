@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.kjava.j2meproject</type>
+    <configuration>
+        <configurations xmlns="http://www.netbeans.org/ns/project-configurations/1">
+            <configuration>MIDP10</configuration>
+            <configuration>PersonalEdition</configuration>
+            <configuration>Samsung</configuration>
+            <configuration>MotorolaA4</configuration>
+        </configurations>
+        <data xmlns="http://www.netbeans.org/ns/j2me-project">
+            <name>BelHydraMet</name>
+            <minimum-ant-version>1.6</minimum-ant-version>
+        </data>
+        <references xmlns="http://www.netbeans.org/ns/ant-project-references/2">
+            <reference>
+                <foreign-project>mobile-appl</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>${project.mobile-appl}/build.xml</script>
+                <target>jar</target>
+                <clean-target>clean</clean-target>
+                <id>jar</id>
+                <properties>
+                    <property name="config.active"/>
+                </properties>
+            </reference>
+            <reference>
+                <foreign-project>mobile-http</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>${project.mobile-http}/build.xml</script>
+                <target>jar</target>
+                <clean-target>clean</clean-target>
+                <id>jar</id>
+                <properties>
+                    <property name="config.active"/>
+                </properties>
+            </reference>
+            <reference>
+                <foreign-project>mobile-util</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>${project.mobile-util}/build.xml</script>
+                <target>jar</target>
+                <clean-target>clean</clean-target>
+                <id>jar</id>
+                <properties>
+                    <property name="config.active"/>
+                </properties>
+            </reference>
+        </references>
+    </configuration>
+</project>
