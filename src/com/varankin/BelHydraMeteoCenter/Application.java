@@ -105,8 +105,7 @@ public class Application extends Dispatcher
         }
 
         // complete important checks before start
-        if( false && ! isMIDletValid( 43774 ) ) //DEBUG false && 
-            // shame on you, hackers
+        if( ! isMIDletValid( 43774 ) ) // shame on you, hackers
             exitRequested();
 
         // start required form first
@@ -115,7 +114,6 @@ public class Application extends Dispatcher
         else if( isAuto() || forecast == logo ) main_view.inquire( null ); // auto start
         else setCurrent( main_view ); // wait for user action
     }
-    //public boolean isLicenseValid() { return true; } //DEBUG
 
     public boolean isExpired()
     {
