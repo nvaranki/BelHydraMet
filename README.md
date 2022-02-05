@@ -1,6 +1,6 @@
 # BelHydraMet
 
-World Weather Informer (BelHydraMet) - MIDP Application
+[World Weather Informer (BelHydraMet)](http://varankin.by/?page=software/02&lang=en) - MIDP Application
 
 NetBeans project
 
