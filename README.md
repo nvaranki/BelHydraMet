@@ -4,4 +4,7 @@
 
 NetBeans project
 
-Requires: ../mobile-appl ../mobile-http ../mobile-util
+Requires: 
+[../mobile-appl](https://github.com/nvaranki/mobile-appl) 
+[../mobile-http](https://github.com/nvaranki/mobile-http) 
+[../mobile-util](https://github.com/nvaranki/mobile-util)
